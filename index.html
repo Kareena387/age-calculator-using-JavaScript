@@ -37,7 +37,20 @@
 
             let d3, m3, y3;
 
-            y3 = y2 - y1;
+            y3 = y2 - y1;// y3=year difference, y2= current date, y1= DoY
+
+            if (m2 >= m1) {
+                m3 = m2 - m1;
+            } else {
+                y3--;
+                m3 = 12 + m2 - m2;
+            }
+
+            if (d2 >= d1) {
+                d3 = d2 - d1;
+            } else {
+
+            }
 
 
 
