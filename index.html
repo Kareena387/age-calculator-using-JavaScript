@@ -15,13 +15,17 @@
             </h1>
             <div class="input-box">
                 <input type="date" id="date">
-                <button>Calculate</button>
+                <button onclick="calculateAge">Calculate</button>
+                
             </div>
         </div>
     </div>
     <script>
         let userInput = document.getElementById("date");
         userInput.max = new Date().toISOString().split("T")[0];
+        function calculateAge(){
+
+        }
     </script>
 </body>
 
